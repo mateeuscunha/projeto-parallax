@@ -1,0 +1,100 @@
+@charset "UTF-8";  /*Configuração de caracteres*/
+
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Passion+One:wght@400;700;900&family=Sriracha&family=Work+Sans:ital,wght@0,100..900;1,100..900&display=swap'); /*adicionando fonte Passion One*/
+
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Sriracha&family=Work+Sans:ital,wght@0,100..900;1,100..900&display=swap');   /*adicionando fonte Sriracha*/
+
+:root {
+    --fonte-poesia: "Sriracha", cursive;
+    --fonte-header: "Passion One", cursive;
+    --fonte-default: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+body {
+    font-family: var(--fonte-default);
+    font-size: 1em;
+    background-color: darkgray;
+}
+
+header {
+    background-color: black;
+    color: white;
+    text-align: center;
+}
+
+header > h1 {
+    padding-top: 50px;
+    font-size: 10vw;
+    font-family: var(--fonte-header);
+    font-variant: small-caps;
+}
+
+header > p {
+    font-family: var(--fonte-default);
+    padding-bottom: 50px;
+    font-size: 1em;
+}
+
+a {
+    font-weight: bolder;
+    text-decoration: none;
+    color: white;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+main p {
+    font-family: var(--fonte-poesia);
+    font-size: 3.5vw;
+    line-height: 2em;
+}
+
+main article {
+    padding: 10vh 30px;
+}
+
+main article.branco {
+    background-color: white;
+}
+
+main article.imagem {
+    box-shadow: inset 6px 6px 13px 0px rgba(0, 0, 0, 0.308);
+}
+
+main article.imagem p {
+    padding: 5px;
+    width: fit-content;
+    background-color: rgba(0, 0, 0, 0.514);
+    text-shadow: 1px 1px 1px black;
+}
+
+main article#joaninha {
+    background-image: url(../imagens/background001.jpg);
+       background-attachment: fixed;
+    background-position: center center;
+    background-size: cover;
+    color: white;
+    padding: 10vh 30px;
+}
+
+main article#folha {
+    background: darkgray url(../imagens/background002.jpg) center center fixed;
+    background-size: cover;
+    color: white;
+    padding: 10vh 30px;
+    /*color > image > position > [size] > attachment*/
+}
+
+footer {
+    background-color: black;
+    color: white;
+    text-align: center;
+    padding: 10px;
+}
