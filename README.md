@@ -1,2 +1,2 @@
-# projeto-parallax
-Projeto de site com poesia e efeito de fundo parallax criado no módulo 3 do curso de HTML e de CSS.
+# Cordel Project
+Website project with poetry and parallax background made in the module 3 of the HTML and CSS course.
